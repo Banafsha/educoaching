@@ -1,0 +1,185 @@
+*{
+    margin: 0;    
+    padding: 0;
+    font-family: sans-serif;
+    }
+    body{
+    background-color: rgb(238, 212, 181) !important;    
+    }
+    
+    .my-nav{
+    background-color: darkseagreen;    
+    }
+    
+    
+    
+    .navbar{
+    width: 100%;
+    font-weight: bold;
+    
+    }
+    
+    
+    .navbar-brand{
+    padding-right: 55px;
+    padding-left: 3px;
+    font-weight: bold;
+    font-style: italic;
+    
+    }
+    
+    
+    .logo{
+    margin-left: 70px;
+    margin-top: -7px;   
+    }
+    
+    .navbar-nav{
+    margin-left: 10px;    
+    
+    }
+    .navbar li:hover{
+    background-color: blanchedalmond; 
+    position: relative;   
+    }
+    
+    .nav-item{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 18px;    
+    }
+    .dropdown-menu{
+    margin-top: 10px !important;
+    background-color: darkseagreen !important;
+      
+    }
+    .dropdown-menu a:hover{
+    background-color: blanchedalmond !important;
+    border-radius: 15px;
+        
+    }
+    
+    .icons{
+    margin-right: 15px;
+    padding-left: 20px;    
+    }
+
+
+.main{
+font-weight: bolder; 
+color: darkcyan;
+text-shadow: 4px 4px 4px dimgrey;
+padding: 40px;
+}
+
+ .main:hover{
+    
+    color: midnightblue;
+    text-shadow: 4px 4px 4px darkturquoise;   
+} 
+
+span{
+    text-shadow: 2px 2px 2px darkturquoise;    
+    }
+
+
+
+marquee{
+    background-color: lightblue;
+    margin: 30px;
+    
+}
+
+
+body{
+    background-image: url(images/background1.jpg);
+    size: cover;
+}
+
+
+.center{
+
+ color: midnightblue;
+ text-shadow: 4px 4px 4px darkturquoise;   
+ text-align: center;
+font-weight: bold;
+}
+
+form{
+margin: 50px auto;
+width: 320px;
+}
+
+input{
+padding: 4px;
+background-color: powderblue;
+
+   }
+
+   input[type="text"]{
+   display: block;
+   margin-bottom: 25px; 
+   width: 100%;
+   border: 3px solid slateblue;   
+   
+}
+
+   input[type="tel"]{
+    display: block;
+    margin-bottom: 25px; 
+    width: 100%;
+    border: 3px solid slateblue;   
+    
+}
+
+    input[type="mail"]{
+        display: block;
+        margin-bottom: 25px; 
+        width: 100%;
+        border: 3px solid slateblue;   
+        }
+     
+        select{
+            display: block;
+             width: 100%; 
+            border: 3px solid slateblue;   
+            margin-bottom: 30px;
+            padding: 7px;
+            background-color: powderblue;
+            
+        }
+        
+        input[type="Submit"]{
+        width: 320px;
+        height: 45px;
+        border: none;
+        background-color: slateblue;
+        color: white;
+        margin-top: 20px;    
+        }    
+
+      .subject{
+      margin-bottom: 15px;
+         
+      }
+
+      .footer-bottom{
+        text-align: center;
+        background-color: darkcyan;
+        display: flex;  
+        justify-content: space-around;
+         
+      }
+        .icon1{
+        display: flex;
+        color: white;
+        
+        }
+      .footer-bottom p{
+      padding-top: 20px;  
+      }
+      
+      .fa{
+         padding: 20px; 
+        }
+      

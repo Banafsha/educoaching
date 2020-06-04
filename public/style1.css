@@ -1,0 +1,163 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+    font-family: sans-serif;
+    }
+    body{
+    background-color: bisque !important;    
+    }
+    
+    .my-nav{
+    background-color: darkseagreen;    
+    }
+    
+    
+    
+    .navbar{
+    width: 100%;
+    font-weight: bold;
+    
+    }
+    
+    
+    .navbar-brand{
+    padding-right: 55px;
+    padding-left: 3px;
+    font-weight: bold;
+    font-style: italic;
+    
+    }
+    
+    
+    .logo{
+    margin-left: 70px;
+    margin-top: -7px;   
+    }
+    
+    .navbar-nav{
+    margin-left: 10px;    
+    
+    }
+    .navbar li:hover{
+    background-color: bisque; 
+    position: relative;   
+    }
+    
+    .nav-item{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 18px;    
+    }
+    .dropdown-menu{
+    margin-top: 10px !important;
+    background-color: darkseagreen !important;
+      
+    }
+    .dropdown-menu a:hover{
+    background-color: blanchedalmond !important;
+    border-radius: 15px;
+        
+    }
+    
+    .icons{
+    margin-right: 15px;
+    padding-left: 20px;    
+    }
+    
+   .container{
+    padding: 35px;
+}
+
+.main{    
+padding-top: 25px;
+font-weight: bolder;
+text-shadow: 4px 4px 4px olivedrab;
+}
+
+
+
+.row{
+background-color: palegoldenrod;
+margin: 50px 0; 
+display: table;
+border: 0.5px solid goldenrod;
+content: "";
+clear: both;
+border-radius: 7px;
+box-shadow: 4px 5px 5px goldenrod;
+}
+
+.column-66{
+float: left;
+width: 66.6666%;
+padding: 50px;
+}
+
+.column-66 h2{
+font-weight: bold;
+color: midnightblue;
+text-shadow: 3px 3px 4px cornflowerblue;   
+}
+
+.column-33{
+float: left;
+width: 33.3333%;
+padding: 20px;
+}
+
+@media screen and (max-width:991px){
+.column-66,
+.column-33{
+width: 100%;
+text-align: center;    
+}    
+}
+
+.column-33 img{
+border-radius: 10px;   
+}
+
+.column-33 img:hover{
+animation: shake 0.5s ;
+animation-iteration-count: infinite;
+}   
+@keyframes shake{
+0%  {transform: translate(1px,1px) rotate(0deg); }    
+10% {transform: translate(-1px,-2px) rotate(-1deg); }   
+20% {transform: translate(-3px,0px) rotate(1deg); }   
+30% {transform: translate(3px,2px) rotate(0deg); }   
+40% {transform: translate(1px,-1px) rotate(1deg); }   
+50% {transform: translate(-1px,2px) rotate(-1deg); }   
+60% {transform: translate(-3px,1px) rotate(0deg); }   
+70% {transform: translate(3px,1px) rotate(-1deg); }   
+80% {transform: translate(-1px,-1px) rotate(1deg); }   
+90% {transform: translate(1px,2px) rotate(0deg); } 
+100%{transform: translate(1px,-2px) rotate(-1deg); } 
+}
+
+.button{
+border-radius: 20px;
+background-color: lightgoldenrodyellow;
+width: 100px;    
+height: 50px;
+}
+
+.footer-bottom{
+    text-align: center;
+    background-color: darkcyan;
+    display: flex;  
+    justify-content: space-around;
+     
+  }
+    .icon1{
+    display: flex;
+    color: white;
+    
+    }
+  .footer-bottom p{
+  padding-top: 20px;  
+  }
+  
+  .fa{
+     padding: 20px; 
+    }

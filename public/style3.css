@@ -1,0 +1,113 @@
+*{
+    margin: 0;    
+    padding: 0;
+    font-family: sans-serif;
+    }
+    body{
+    background-image: url(images/light.jpg);
+    size: center;    
+    }
+    
+    .my-nav{
+    background-color: darkseagreen;    
+    }
+    
+    
+    
+    .navbar{
+    width: 100%;
+    font-weight: bold;
+    
+    }
+    
+    
+    .navbar-brand{
+    padding-right: 55px;
+    padding-left: 3px;
+    font-weight: bold;
+    font-style: italic;
+    
+    }
+    
+    
+    .logo{
+    margin-left: 70px;
+    margin-top: -7px;   
+    }
+    
+    .navbar-nav{
+    margin-left: 10px;    
+    
+    }
+    .navbar li:hover{
+    background-color: blanchedalmond; 
+    position: relative;   
+    }
+    
+    .nav-item{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 18px;    
+    }
+    .dropdown-menu{
+    margin-top: 10px !important;
+    background-color: darkseagreen !important;
+      
+    }
+    .dropdown-menu a:hover{
+    background-color: blanchedalmond !important;
+    border-radius: 15px;
+        
+    }
+    
+    .icons{
+    margin-right: 15px;
+    padding-left: 20px;    
+    }
+  .container3{  
+  margin: 80px;
+ 
+  }  
+  
+  
+  h1{
+  text-align: center; 
+  color: darkslategray; 
+  padding-top: 20px;
+  text-shadow: 4px 4px 4px dodgerblue;
+  }
+  
+  .card{
+   max-width: 350px; 
+   margin: 50px auto;
+   border-radius: 5px;
+  box-shadow: 3px 3px 3px mediumturquoise;
+  color: midnightblue;
+}
+
+.card:hover{
+ box-shadow: 0px 15px 15px 0px;
+ transition: 0.5s;   
+}
+
+.footer-bottom{
+  text-align: center;
+  background-color: darkcyan;
+  display: flex;  
+  justify-content: space-around;
+   
+}
+  .icon1{
+  display: flex;
+  color: white;
+  
+  }
+.footer-bottom p{
+padding-top: 20px;  
+}
+
+.fa{
+   padding: 20px; 
+  }
+   
+   
